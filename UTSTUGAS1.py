@@ -21,7 +21,7 @@ while JawabUlang=="y" or JawabUlang=="Y":
     pilihan = input(">> Masukkan Kode Tujuan = ")
     
     no = 0
-    while no <= len(kode):
+    while no < len(kode):
         if kode[no] == pilihan:
 
             print(">>> Pilihan Tujuan   = " + kota[no ])
