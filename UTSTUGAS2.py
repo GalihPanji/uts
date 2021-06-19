@@ -29,7 +29,7 @@ while JawabUlang=="y" or JawabUlang=="Y":
     pilih = input("Masukkan Kode Oli = ")    
 
     no = 0
-    while no <= len(kode):
+    while no < len(kode):
         if kode[no] == pilih:
 
             print("Pilihan Oli  = " + oli[no])
