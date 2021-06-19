@@ -12,8 +12,7 @@ while JawabUlang=="y" or JawabUlang=="Y":
     print(" b = Bandung")
     print(" ")
 
-   kode =['a','b']
-
+    kode =['a','b']
     kota = ['Surabaya','Bandung']
     jarak = [169,452]
     ongkirperkm = [2500,4000]
