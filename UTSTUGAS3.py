@@ -30,7 +30,7 @@ while JawabUlang=="y" or JawabUlang=="Y":
     pilih = input("Masukkan Kode Barang = ")    
 
     no = 0
-    while no <= len(kode):
+    while no < len(kode):
         if kode[no] == pilih:
 
             print("Pilihan Barang  = " + oli[no])
@@ -51,7 +51,7 @@ while JawabUlang=="y" or JawabUlang=="Y":
                 print("Nilai Diskon = " + str (NilaiDiskon))
             else: 0
 
-            ppn = 0.05 * (int(TotalAwal) - int(NilaiDiskon))
+            ppn = 0.02 * (int(TotalAwal) - int(NilaiDiskon))
             print("PPN  = " + str (ppn))
 
  
